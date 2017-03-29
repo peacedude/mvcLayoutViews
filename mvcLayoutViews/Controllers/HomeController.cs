@@ -22,5 +22,15 @@ namespace mvcLayoutViews.Controllers
             model.Location = "Skövde";
             return View(model);
         }
+
+        public ActionResult Projects()
+        {
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            return View();
+        }
     }
 }
